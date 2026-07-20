@@ -1,0 +1,16 @@
+[project]
+name = "insightvault-backend"
+version = "0.1.0"
+description = "Backend API for InsightVault AI"
+requires-python = ">=3.12"
+
+dependencies = [
+    "fastapi",
+    "uvicorn[standard]",
+    "pydantic-settings"
+]
+
+[tool.pytest.ini_options]
+pythonpath = [
+    "."
+]
