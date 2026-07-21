@@ -8,12 +8,19 @@ InsightVault AI allows teams to upload documents, search information using seman
 
 ## Features
 
-- Document upload
-- AI-powered search
-- RAG pipeline
-- Source citations
-- Retrieval trace
-- Multi-provider LLM support
+✅ PDF upload
+✅ PostgreSQL storage
+✅ SQLAlchemy ORM
+✅ Alembic migrations
+✅ FastAPI REST API
+
+## Architecture
+
+FastAPI → SQLAlchemy → PostgreSQL
+
+## Run
+
+docker compose up
 
 ## Tech Stack
 

@@ -2,9 +2,10 @@ from fastapi import FastAPI
 
 from app.api.documents import router as documents_router
 
+
 app = FastAPI(
     title="InsightVault AI API",
-    version="0.1.0",
+    version="0.1.0"
 )
 
 
